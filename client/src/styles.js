@@ -23,7 +23,7 @@ export default makeStyles(() => ({
   },
   trusted: {
     justifyContent: 'right',
-    marginRight: '490px',
+    marginRight: '450px',
     marginLeft: '20px',
   },
 }));

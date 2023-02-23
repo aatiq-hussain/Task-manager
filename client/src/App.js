@@ -26,6 +26,7 @@ const App = () => {
       <buttonn  className={classes.trust} >   <a  href="https://playfulincompletelocus.firelight0130.repl.co/" >  <button >Courses</button></a> </buttonn>
       
       <buttonn  className={classes.trust} >   <a  href="https://portfolio-315.firelight0130.repl.co/" >  <button >Home</button></a> </buttonn>
+      <buttonn  className={classes.trust} >   <a  href="http://localhost:8080/login" >  <button >Logout</button></a> </buttonn>    
       </AppBar>
       <Grow in>
         <Container>
