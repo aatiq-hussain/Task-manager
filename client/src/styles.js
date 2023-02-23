@@ -6,13 +6,24 @@ export default makeStyles(() => ({
     margin: '30px 0',
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'left',
     alignItems: 'center',
+    paddingTop:'20px',
+    paddingBottom:'20px',
   },
   heading: {
     color: 'rgb(86,40,255)',
+    // paddingLeft: '70px',
+    // paddingRight: '90px',
+    
   },
-  image: {
-    marginLeft: '0px',
+  trust: {
+    justifyContent: 'right',
+    marginRight: '20px',
+  },
+  trusted: {
+    justifyContent: 'right',
+    marginRight: '490px',
+    marginLeft: '20px',
   },
 }));

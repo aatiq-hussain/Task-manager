@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
+import { Container, AppBar, Typography, Grow, Grid, } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import { getPosts } from './actions/posts';
 import useStyles from './styles';
-import memories from './images/memories.png';
+// import memories from './images/memories.png';
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -20,9 +20,12 @@ const App = () => {
     <Container maxWidth="lg">
       
       <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography className={classes.heading} variant="h4" align="center">Task MANAGER</Typography>
+        <Typography className={classes.heading} variant="h4" align="left" ></Typography>
         {/* <img className={classes.image} src={memories} alt="icon" height="60" /> */}
-        <a href="https://playfulincompletelocus.firelight0130.repl.co/" > <button> to courses</button></a>
+        <buttonn  className={classes.trusted} >   <a  >  <butt >Task Manager</butt></a> </buttonn>
+      <buttonn  className={classes.trust} >   <a  href="https://playfulincompletelocus.firelight0130.repl.co/" >  <button >Courses</button></a> </buttonn>
+      
+      <buttonn  className={classes.trust} >   <a  href="https://portfolio-315.firelight0130.repl.co/" >  <button >Home</button></a> </buttonn>
       </AppBar>
       <Grow in>
         <Container>
